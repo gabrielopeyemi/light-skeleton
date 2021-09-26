@@ -6,7 +6,6 @@ export interface SkeletonElementProps  {
   width?: string | undefined;
   height?: string | undefined;
   marginBottom?: string | undefined;
-  children?: any;
   style?: any;
 }
 
@@ -20,7 +19,7 @@ export const TextSkeleton = ({width, height, style}: SkeletonElementProps) => {
   )
 }
 
-export const TitleSkeleton = ({width, height, marginBottom, children, style}: SkeletonElementProps) => {
+export const TitleSkeleton = ({width, height, marginBottom, style}: SkeletonElementProps) => {
   return (
     <TitleSkeletonStyle
       width={width}
