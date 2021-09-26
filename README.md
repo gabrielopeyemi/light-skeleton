@@ -4,6 +4,9 @@ Light react Skeleton loader
 
 ## 🔧 Installation
 
+```
+  npm i light-skeleton
+```
 
 ## 📦 Usage
 ```
